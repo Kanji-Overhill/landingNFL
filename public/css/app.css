@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Museo Sans Rounded 500';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 500'), url('MuseoSansRounded500.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Museo Sans Rounded 100';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 100'), url('MuseoSansRounded100.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Museo Sans Rounded 300';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 300'), url('MuseoSansRounded300.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Museo Sans Rounded 700';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 700'), url('MuseoSansRounded700.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Museo Sans Rounded 900';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 900'), url('MuseoSansRounded900.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Museo Sans Rounded 1000';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo Sans Rounded 1000'), url('MuseoSansRounded1000.woff') format('woff');
+    }
+body{
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Museo Sans Rounded 300';
+}
+.imprimir{
+    color: #fff;
+    font-family: 'Museo Sans Rounded 700';
+    text-decoration: underline;
+}
+.logo img{
+    width: 100%;
+    max-width: 150px;
+}
+h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Museo Sans Rounded 700';
+}
+.r-100{
+    min-height: 100vh;
+}
+.noticias .content{
+    background: #fff;
+    border-radius: 15px;
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.white{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Museo Sans Rounded 700';
+}
+.buttons a{
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: #fff;
+    padding: .5rem 4rem;
+    transition: all .3s;
+    border-radius: 5px;
+}
+.custom-control-label::before{
+    background-color: #fff;
+}
+.buttons p{
+    display: inline-block;
+}
+.buttons .link-b{
+    border: 1px solid #2AB5DF;
+}
+.buttons .link-b:hover{
+    background: #2AB5DF;
+}
+.asesor .link-b{
+    background: #2AB5DF;
+}
+.buttons .link-g{
+    border: 1px solid #49A84F;
+}
+.cliente .link-g{
+    background: #49A84F;
+}
+.buttons .link-g:hover{
+    background: #49A84F;
+}
+a:hover{
+    text-decoration: none;
+}
+h2{
+    color: #015694;
+    font-family: 'Museo Sans Rounded 700';
+    text-align: center;
+}
+.modal-content{
+    padding: 3rem 2rem;
+}
+.modal-content p{
+    color: #40516F
+}
+.modal-content p b{
+    color: #015694;
+    font-family: 'Museo Sans Rounded 700';
+}
+.modal-content p span{
+    font-weight: bold;
+}
+.bottom-text p:last-child{
+    font-size: 12px;
+}
+.modal-content .col-md-7{
+    background: #F2F5FC;
+}
+.modal-content .col-md-7 label {
+    font-family: 'Museo Sans Rounded 300';
+    font-size: 17px;
+    line-height: 30px;
+    color: #40516F;
+}
+.modal-content .col-md-7 input{
+    border: 0px;
+    font-family: 'Museo Sans Rounded 300';
+}
+.modal-content .col-md-7 input::placeholder{
+    font-size: 14px;
+    color: #40516F;
+}
+.next{
+    color: #4AA84F;
+    font-family: 'Museo Sans Rounded 500';
+}
+.confirmation ul{
+    list-style: none;
+}
+ul li{
+    color: #40516F;
+}
+form{
+    height: 100%;
+}
+.confirmation{
+    height: 100%;
+}
+input[type="submit"]{
+    width: 100%;
+    background: #49A84F;
+    color: #fff;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    cursor: pointer;
+}
+.derechos{
+    margin-top: 10rem;
+}
+h3{
+    color: #015694;
+    font-family: 'Museo Sans Rounded 700';
+    text-align: center;
+}
+.participacion{
+    color: #40516F;
+    font-family: 'Museo Sans Rounded 700';
+    font-size: 1.8rem;
+}
+.folio-container{
+    color: #fff;
+    background: #4AA84F!important;
+    max-width: 280px;
+    margin: 0 auto;
+    padding-top: .5rem;
+    border-radius: 8px;
+    padding-bottom: .5rem;
+}
+.folio-container p, .folio-container p b i{
+    color: #fff;
+}
+.custom-control-label::before {
+    position: absolute;
+    top: .25rem;
+    left: -0.5rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    pointer-events: none;
+    content: "";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #dee2e6;
+}
+.custom-control-label::after {
+    position: absolute;
+    top: .25rem;
+    left: 0;
+    left: -0.5rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+@media (min-width: 992px){
+    .modal-sm {
+        max-width: 550px;
+    }
+}
+@media (max-width: 550px){
+    body{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    h1, h2{
+        font-size: 27px;
+        margin-bottom: 1rem;
+    }
+    .logo{
+        margin-bottom: 2rem;
+    }
+    .buttons a{
+        margin-bottom: 1rem;
+    }
+    .r-100{
+        min-height: 80vh;
+    }
+}

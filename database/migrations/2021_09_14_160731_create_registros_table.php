@@ -15,8 +15,16 @@ class CreateRegistrosTable extends Migration
     {
         Schema::create('registros', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string("nombre");
+            $table->string("email");
+            $table->string("telefono");
+            $table->string("oficina");
+            $table->integer("monto");
+            $table->string("imagen");
+            $table->integer('folio_id')->unsigned();
+            $table->text("descripcion");
         });
+     
     }
 
     /**
@@ -29,3 +37,8 @@ class CreateRegistrosTable extends Migration
         Schema::dropIfExists('registros');
     }
 }
+
+
+
+
+

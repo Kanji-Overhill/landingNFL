@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+Route::post('/insert-asesor','App\Http\Controllers\RegistrosController@insertRegistroAsesor')->name('insertAsesor');
+Route::post('/insert-cliente','App\Http\Controllers\RegistrosController@insertRegistroCliente')->name('insertCliente');
+Route::get('/imprimir/{folios}', 'App\Http\Controllers\GeneradorController@imprimir')->name('print');
